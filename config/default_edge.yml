@@ -2,3 +2,7 @@ inherit_from: _default_shared.yml
 
 require:
   - rubocop-performance
+  - standard
+
+inherit_gem:
+  standard: config/base.yml
