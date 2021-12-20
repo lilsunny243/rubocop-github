@@ -1,6 +1,10 @@
 require:
   - rubocop/cop/github
   - rubocop-performance
+  - standard
+
+inherit_gem:
+  standard: config/base.yml
 
 # These cops are compatible across supported versions of rubocop
 

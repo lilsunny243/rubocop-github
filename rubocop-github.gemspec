@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rubocop", "<= 1.13.0"
   s.add_dependency "rubocop-performance", "<= 1.12.0"
   s.add_dependency "rubocop-rails", "<= 2.7.1"
+  s.add_dependency "standard"
 
   s.add_development_dependency "actionview", "~> 5.0"
   s.add_development_dependency "minitest", "~> 5.14"
